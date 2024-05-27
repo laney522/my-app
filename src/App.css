@@ -1,7 +1,65 @@
-.container {
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-auto-rows: minmax(150px, auto);
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main section styles */
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* 
+@media (min-width: 701px) {
+  .main-grid {
+    display: grid;
+    background-color: yellow;
+    width: min(1000px, 75rem);
+    margin: 0 auto;
+    grid-auto-flow: column;
+    gap: 1em;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-grid {
+    display: grid;
+    grid-auto-flow: row;
+    background-color: green;
+  }
 }
 
 .App {
@@ -43,3 +101,8 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  display: flex;
+  margin: 10px 20px;
+} */
