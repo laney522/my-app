@@ -25,7 +25,7 @@ function Main() {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [bookingData, setBookingData] = useState([]);
   const [bookingConfirmed, setBookingConfirmed] = useState(false);
-  const navigate = useNavigate();
+ // const navigate = useNavigate();
 
   // Function to submit the form data
   const submitForm = async (formData) => {
@@ -35,7 +35,7 @@ function Main() {
       if (isBookingConfirmed) {
         setBookingConfirmed(true);
         setBookingData([...bookingData, formData]);
-        navigate('/confirmed');
+        //navigate('/confirmed');
       } else {
         console.log("Booking submission failed."); // Log an error message
       }
