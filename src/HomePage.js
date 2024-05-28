@@ -1,12 +1,11 @@
 import React from 'react';
-import './HomePage.css';
 
 function HomePage() {
   return (
     <div>
-      <h1>Welcome to Little Lemon</h1>
+      <h2>This is a HomePage</h2>
     </div>
-  )
+  );
 }
 
 export default HomePage;
